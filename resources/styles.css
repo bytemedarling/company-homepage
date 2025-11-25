@@ -1,6 +1,12 @@
 body {
     background-color: #F5F1EA;
+    text-align: center;
 }
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
 /* ======== Logo ======== */
 .logo {
     text-decoration: none;
@@ -98,4 +104,50 @@ header h1 {
     gap: 12px;
     margin-top: 10px;
   }
+}
+
+/* ========== Hero Section Styling ========== */
+.hero-section {
+    padding: 2.5rem 0;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.hero-text {
+    max-width: 18.75rem;
+}
+.hero-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 12.5rem;
+}
+.price {
+    font-weight: bold;
+    color: #7C4A33;
+}
+
+/* ========== Visit SEction Styling ========== */
+.visit-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.visit-card {
+  background-color: #fff;
+  border: 1px solid #d9d6d0;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.visit-card h3 {
+  font-family: 'DM Serif Text', serif;
+  color: #1A2A3A;
 }
