@@ -9,7 +9,7 @@ body {
 }
 
 /* ======== Banner Styling ========= */
-.banner h1 {
+#banner h1 {
     color: rgba(26, 42, 58, 0.7);
     text-align: center;
 }
