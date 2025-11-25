@@ -11,7 +11,7 @@ body {
 /* ======== Banner Styling ========= */
 .banner {
     color: rgba(26, 42, 58, 0.7);
-
+    text-align: center;
 }
 
 /* ======== Nav Link Styling ======== */
