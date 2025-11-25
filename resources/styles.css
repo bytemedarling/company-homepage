@@ -16,7 +16,7 @@ Header {
     padding: 20px;
 }
 
-h1 {
+header h1 {
     color: rgba(26, 42, 58, 0.7);
     font-family: 'DM Serif Text', serif;
     font-size: 2rem;
