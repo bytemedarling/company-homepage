@@ -61,6 +61,9 @@ header h1 {
 .nav-container a:hover {
   color: #7C4A33; /* Copper Espresso */
 }
+.navigation {
+    text-align: center;
+}
 
 .navigation ul {
     display: flex;
