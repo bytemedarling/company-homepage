@@ -1,0 +1,15 @@
+body {
+    background-color: floralwhite;
+}
+/* ======== Logo ======== */
+.logo {
+    text-decoration: none;
+    max-width: 9.375rem;
+    height: auto;
+}
+
+/* ======== Banner Styling ========= */
+.banner {
+    background-color: darkgreen;
+    color: floralwhite;
+}
