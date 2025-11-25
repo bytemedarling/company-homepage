@@ -12,3 +12,17 @@ body {
 .banner {
     color: #1A2A3A;
 }
+
+/* ======== Nav Link Styling ======== */
+.navigation {
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navigation li {
+
+}
