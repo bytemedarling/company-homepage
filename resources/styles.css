@@ -179,6 +179,7 @@ header h1 {
   box-shadow: 0 0 12px rgba(162, 95, 75, 0.3); /* Brick Clay glow */
   max-width: 200px;
   margin-bottom: 12px;
+  padding-top: 5rem;
 }
 
 
