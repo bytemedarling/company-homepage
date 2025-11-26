@@ -146,14 +146,16 @@ header h1 {
   text-align: center;
 }
 .hero-text {
-    width: 1200px;
+    width: 100%;
     background-color: #F5F1EA;
     opacity: 0.9;
 }
+/* ========== Featured Drink Styling ========== */
 .hero-card {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    width: 12.5rem;
 }
 .price {
     font-weight: bold;
