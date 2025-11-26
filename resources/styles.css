@@ -116,6 +116,7 @@ header h1 {
   font-size: 0.9rem;
   margin: 20px 0;
   color: #7C4A33;
+  align-items: start;
 }
 .breadcrumb a {
   text-decoration: none;
