@@ -22,8 +22,9 @@ h1, h2, h3 {
 .brand h1 {
   font-family: 'DM Serif Text', serif;
   font-size: 1.8rem;
-  color: #1A2A3A;
+  color: rgba(26, 42, 58, 0.7);
   margin: 0;
+  text-align: center;
 }
 
 /* ======== Header Styling ========= */
@@ -129,6 +130,30 @@ header h1 {
 .price {
     font-weight: bold;
     color: #7C4A33;
+}
+
+/* ========== Background Image Styling ========== */
+.hero-section {
+    background-image: url("resources/images/beans.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+}
+
+.hero-text {
+    text-align: center;
+    background-color: #F5F1EA;
+}
+.hero-text h1 {
+    font-family: "DM Serif Text", serif;
+}
+
+.hero-text p {
+    font-family: "Outfit", sans-serif;
+    color: rgba(26, 42, 58, 0.7);
 }
 
 /* Mobile */
