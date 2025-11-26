@@ -1,85 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Menu</title>
-
-<!-- ========== CSS link ========== -->
-    <link rel="stylesheet" href="resources/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu</title>
+  <link rel="stylesheet" href="resources/styles.css">
 </head>
-<!-- ========== Body of Website ========== -->
 <body>
   <!-- ========== Header Section ========== -->
-    <header>
-        <div class="brand">
-            <a href="index.html">
-            <img src="resources/images/bclogo.png" alt="Site logo" class="logo">
-            </a>
+  <header>
+    <div class="brand">
+      <a href="index.html">
+        <img src="resources/images/bclogo.png" alt="Site logo" class="logo">
+      </a>
+    </div>
+    <div class="nav-container">         
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== Breadcrumb ========== -->
+  <nav class="breadcrumb">
+    <a href="index.html">Home</a> &gt; <span>Menu</span>
+  </nav>
+
+  <!-- ========== Main Content ========== -->
+  <main>
+    <section id="menu" class="menu-section">
+      <h2>Neighborhood Favorites</h2>
+
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="resources/images/iced coffee.jpg" alt="Brownstone Latte" class="menu-img">
+          <h3>Brownstone Latte</h3>
+          <p>Oat Milk, Burnt Sugar, Cinnamon.</p>
         </div>
-        <div class="nav-container">         
-            <nav class="navigation">
-                <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="story.html">Our Story</a></li>
-                <li><a href="visit.html">Visit</a></li>
-                </ul>
-            </nav>
+
+        <div class="menu-item">
+          <img src="resources/images/drip.jpg" alt="Myrtle Ave Drip" class="menu-img">
+          <h3>Myrtle Ave Drip</h3>
+          <p>Rich, Smooth, Single-origin Brew.</p>
         </div>
-    </header>
-    <!-- ========== Breadcrumb ========== -->
-        <nav class="breadcrumb">
-            <a href="index.html">Home</a> &gt; <span>Menu</span>
-        </nav>
-    <main>
-        <section id="menu" class="menu-section">
-            <h2>Neighborhood Favorites</h2>
 
-            <div class="menu-container">
+        <div class="menu-item">
+          <img src="resources/images/mocha.jpg" alt="Twilight Mocha" class="menu-img">
+          <h3>Twilight Mocha</h3>
+          <p>Hints of Vanilla + Cocoa.</p>
+        </div>
+      </div>
 
-                <div class="menu-item">
-                    <img src="resources/images/iced coffee.jpg" alt="Brownstone Latte" class="menu-img">
-                    <h3>Brownstone Latte</h3>
-                    <p>Oat Milk, Burnt Sugar, Cinnamon.</p>
-                </div>
+      <div class="full-menu-container">
+        <div class="classic-menu">
+          <h3>Full Menu</h3>
+          <h1>Classics</h1>
+          <p>Cappuccino</p>
+          <p>Espresso</p>
+          <p>Latte</p>
+          <p>Cortado</p>
+          <p>Americano</p>
+          <p>Mocha</p>
+          <p>Drip Coffee</p>
+          <p>Cafe au Lait</p>
+          <p>Iced Coffee</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-                <div class="menu-item">
-                    <img src="resources/images/drip.jpg" alt="Myrtle Ave Drip" class="menu-img">
-                    <h3>Myrtle Ave Drip</h3>
-                    <p>Rich, Smooth, Single-origin Brew.</p>
-                </div>
-
-                <div class="menu-item">
-                    <img src="resources/images/mocha.jpg" alt="Twilight Mocha" class="menu-img">
-                    <h3>Twilight Mocha</h3>
-                    <p>Hints of Vanilla + Cocoa.</p>
-                </div>
-
-            </div>
-            <div class="full-menu-container">
-
-                <div class="classic-menu">
-                    <h3>Full Menu</h3>
-                    <h1>Classics</h1>
-                    <p>Cappuccino</p>
-                    <p>Espresso</p>
-                    <p>Latte</p>
-                    <p>Cortado</p>
-                    <p>Americano</p>
-                    <p>Mocha</p>
-                    <p>Drip Coffee</p>
-                    <p>Cafe au Le</p>
-                    <p>Iced Coffee</p>
-
-                </div>
-            </div>
-        </section>
-    </main>
-    </header>
-    <!-- ========== Footer ========== -->
-    <footer>
-        <p>&copy;2025 Borough Bean Co.</p>
-    </footer>
+  <!-- ========== Footer ========== -->
+  <footer>
+    <p>&copy;2025 Borough Bean Co.</p>
+  </footer>
 </body>
 </html>
