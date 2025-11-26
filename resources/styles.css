@@ -31,7 +31,6 @@ h1, h2, h3 {
 /* ======== Header Styling ========= */
 Header {
     display: flex;
-    position: fixed;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -157,6 +156,18 @@ header h1 {
     font-family: "Outfit", sans-serif;
     color: rgba(26, 42, 58, 0.7);
 }
+
+/* ========== Latte Image Styling ========== */
+.latte {
+  background-color: #fff;
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 180px;
+  margin-bottom: 12px;
+}
+
 
 /* Mobile */
 @media (max-width: 600px) {
