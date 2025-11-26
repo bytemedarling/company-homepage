@@ -15,8 +15,9 @@ h1, h2, h3 {
 }
 .brand {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .brand h1 {
@@ -30,8 +31,9 @@ h1, h2, h3 {
 /* ======== Header Styling ========= */
 Header {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
     padding: 1.25rem 2.5rem;
 }
 
@@ -46,9 +48,9 @@ header h1 {
 /* ======== Nav Link Styling ======== */
 .nav-container {
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     text-decoration: none;
+    width: 100%;
 }
 .nav-container ul {
   list-style: none;
