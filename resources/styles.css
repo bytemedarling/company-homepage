@@ -210,6 +210,7 @@ header h1 {
 }
 
 .beans {
+    background-image: url("../resources/images/beans.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
