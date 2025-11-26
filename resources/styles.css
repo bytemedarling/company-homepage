@@ -235,13 +235,7 @@ header h1 {
 
 /* ========== Story Section Styling ========== */
 .story-section {
-    background-image: url("../resources/images/beans.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    height: 43.75rem;
+    
 }
 
 /* ========== Visit SEction Styling ========== */
