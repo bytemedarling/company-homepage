@@ -200,16 +200,11 @@ header h1 {
 }
 
 /* ========== Images Styling ========== */
-.drip {
+.menu-img {
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(162, 95, 75, 0.3); /* Brick Clay glow */
-  max-width: 200px;
-  margin-bottom: 12px;
-}
-.mocha {
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(162, 95, 75, 0.3); /* Brick Clay glow */
-  max-width: 200px;
+  width: 17.5rem; 
+  height: 17.5rem;
   margin-bottom: 12px;
 }
 
