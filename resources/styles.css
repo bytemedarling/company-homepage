@@ -127,28 +127,36 @@ header h1 {
 }
 
 /* ========== Hero Section Styling ========== */
+/*
 #hero {
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-}
-.hero-section {
-    padding: 2.5rem 0;
-    justify-content: center;
-    align-items: center;
-}
+} */
 
-.hero-container {
-  position: relative;
-  z-index: 1;
-  padding: 2.5rem;
-  text-align: center;
+.hero-section {
+    background-image: url("../resources/images/beans.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 43.75rem;
+}
+.hero-text h1 {
+    font-family: "DM Serif Text", serif;
+}
+.hero-text p {
+    font-family: "Outfit", sans-serif;
+    color: rgba(26, 42, 58, 0.7);
 }
 .hero-text {
     width: 100%;
     background-color: #F5F1EA;
     opacity: 0.9;
+    padding: 20px 30px;
+    text-align: center;
 }
 /* ========== Featured Drink Styling ========== */
 .hero-card {
@@ -160,26 +168,6 @@ header h1 {
 .price {
     font-weight: bold;
     color: #7C4A33;
-}
-
-/* ========== Background Image Styling ========== */
-.hero-section {
-    background-image: url("../resources/images/beans.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    height: 43.75rem;
-}
-
-.hero-text h1 {
-    font-family: "DM Serif Text", serif;
-}
-
-.hero-text p {
-    font-family: "Outfit", sans-serif;
-    color: rgba(26, 42, 58, 0.7);
 }
 
 /* ========== Latte Image Styling ========== */
