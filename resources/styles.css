@@ -110,6 +110,21 @@ header h1 {
   }
 }
 
+/* ========== Breadcrumb Styling ========== */
+.breadcrumb {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9rem;
+  margin: 20px 0;
+  color: #7C4A33;
+}
+.breadcrumb a {
+  text-decoration: none;
+  color: #A25F4B;
+}
+.breadcrumb a:hover {
+  color: #7C4A33;
+}
+
 /* ========== Hero Section Styling ========== */
 .hero-section {
     padding: 2.5rem 0;
