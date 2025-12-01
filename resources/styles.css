@@ -389,8 +389,9 @@ footer {
   height: 12px;
   border-radius: 50%;
   border: 2px solid rgba(26, 42, 58, 0.7);
-  background-color: rgba(26, 42, 58, 0.2); /* add fill */
-  cursor: pointer; /* makes them clickable */
+  background-color: rgba(26, 42, 58, 0.2);
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
 }
 
 .nav-dot:hover {
@@ -399,7 +400,7 @@ footer {
 #slide1:checked ~ .slideshow-nav label[for="slide1"],
 #slide2:checked ~ .slideshow-nav label[for="slide2"],
 #slide3:checked ~ .slideshow-nav label[for="slide3"] {
-  background-color: rgba(26, 42, 58, 0.9); /* darker fill for active */
+  background-color: rgba(26, 42, 58, 0.9);/* darker fill for active */
 }
 
 @media (max-width: 768px) {
