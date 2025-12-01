@@ -247,13 +247,7 @@ header h1 {
 .menu-item {
     max-width: 250px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.menu-item:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
-
 
 @media (max-width: 768px) {
   .menu-container {
@@ -273,6 +267,11 @@ header h1 {
     height: 17.5rem;
     object-fit: cover;
     margin-bottom: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.menu-img:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 /* ========== Story Section Styling ========== */
