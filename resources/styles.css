@@ -377,15 +377,7 @@ footer {
     object-fit: cover;
 }
 /* -- Show Slide 1 by Default -- */
-#slide1:checked ~ .slides .slide:nth-child(1) {
-    display: block;
-}
-#slide2:checked ~ .slides .slide:nth-child(2) {
-    display: block;
-}
-#slide3:checked ~ .slides .slide:nth-child(3) {
-    display: block;
-}
+
 /* -- Dots Under the Slideshow -- */
 .slideshow-nav {
     display: flex;
@@ -393,11 +385,23 @@ footer {
     gap: 8px;
 }
 .nav-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: 2px solid rgba(26, 42, 58, 0.7);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(26, 42, 58, 0.7);
+  background-color: rgba(26, 42, 58, 0.2); /* add fill */
+  cursor: pointer; /* makes them clickable */
 }
+
+.nav-dot:hover {
+  background-color: rgba(26, 42, 58, 0.5);
+}
+#slide1:checked ~ .slideshow-nav label[for="slide1"],
+#slide2:checked ~ .slideshow-nav label[for="slide2"],
+#slide3:checked ~ .slideshow-nav label[for="slide3"] {
+  background-color: rgba(26, 42, 58, 0.9); /* darker fill for active */
+}
+
 @media (max-width: 768px) {
   .slideshow {
     max-width: 100%;   /* full width on mobile */
