@@ -314,7 +314,7 @@ header h1 {
 /* ========== Visit SEction Styling ========== */
 .visit-hero {
     background-image: url("../resources/images/local shop.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 300px;   /* banner height */
     width: 100%;
