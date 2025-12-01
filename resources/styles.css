@@ -219,6 +219,23 @@ header h1 {
     text-align: center;
 
 }
+.full-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.classic-menu, .others {
+  background-color: #fff;
+  border: 1px solid #d9d6d0;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
 .menu-container {
     display: flex;
     flex-direction: row;
@@ -276,8 +293,9 @@ header h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    Gap: 2.5rem;
+    gap: 2.5rem;
 }
+
 .visit-card {
     background-color: #fff;
     border: 1px solid #d9d6d0;
