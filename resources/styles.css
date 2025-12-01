@@ -10,7 +10,6 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  color: #F5F1EA;
 }
 
 main {
