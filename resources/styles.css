@@ -153,6 +153,7 @@ header h1 {
 }
 .hero-text {
     width: 100%;
+    color:#F5F1EA;
     opacity: 0.9;
     padding: 20px 30px;
     text-align: center;
