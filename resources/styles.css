@@ -164,6 +164,7 @@ header h1 {
     padding: 20px;
     border-radius: 10px;
     width: 12.5rem;
+    justify-content: center;
 }
 .price {
     font-weight: bold;
