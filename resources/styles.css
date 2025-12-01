@@ -221,6 +221,8 @@ header h1 {
 }
 .menu-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2.5rem;
     padding-top: 2.5rem 1.25rem;
@@ -234,6 +236,9 @@ header h1 {
   .menu-container {
     flex-direction: column;
     align-items: center;
+  }
+  .menu-item {
+    width: 80%;
   }
 }
 
