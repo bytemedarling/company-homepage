@@ -1,15 +1,21 @@
-body {
-    background-color: #F5F1EA;
-    text-align: center;
-}
-
 h1, h2, h3 {
     margin: 10px 0;
 }
 
-footer {
-    padding: 2rem;
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 
 /* ======== Logo ======== */
 .logo {
