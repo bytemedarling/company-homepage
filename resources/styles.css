@@ -360,14 +360,13 @@ footer {
 
 /* ========== Gallery / Slideshow Styling ========== */
 .gallery {
-    padding: 40px;
+    padding: 40px 20px;
 }
 .slideshow {
     max-width: 31.25rem;
     width: 100%;
     margin: 0 auto;
     aspect-ratio: 16/9;
-    overflow: hidden;
     border-radius: 8px;
 }
 /* -- Hide Radio Buttons -- */
@@ -376,12 +375,13 @@ footer {
 }
 .slides {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: 18.75rem;
 }
 .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     display: none;
@@ -399,12 +399,12 @@ footer {
 
 .slide img {
     width: 100%;
-    height: auto;
+    height:100%;
     object-fit: cover;
 }
 /* -- Show Slide 1 by Default -- */
 
-/* -- Dots Under the Slideshow -- */
+/* ========== Dots Under the Slideshow ========== */
 .slideshow-nav {
     display: flex;
     justify-content: center;
