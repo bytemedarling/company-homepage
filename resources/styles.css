@@ -432,7 +432,7 @@ footer {
 #slide1:checked ~ .slideshow-nav label[for="slide1"],
 #slide2:checked ~ .slideshow-nav label[for="slide2"],
 #slide3:checked ~ .slideshow-nav label[for="slide3"] {
-  background-color: rgba(26, 42, 58, 0.9);/* darker fill for active */
+  background-color: #7C4A33; /* darker fill for active */
 }
 
 @media (max-width: 768px) {
