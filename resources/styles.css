@@ -303,6 +303,7 @@ header h1 {
 .story-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .story-text {
     text-align: center;
