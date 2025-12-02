@@ -300,7 +300,14 @@ header h1 {
 .story-section {
     
 }
-
+.story-container {
+    display: flex;
+    justify-content: center;
+}
+.story-text {
+    text-align: center;
+    font-family: "Boogaloo", Helvetica, sans-serif;
+}
 /* ========== Visit SEction Styling ========== */
 .visit-hero {
     background-image: url("../resources/images/local-shop.jpg");
