@@ -337,14 +337,14 @@ header h1 {
 
 /* ========== Visit SEction Styling ========== */
 .visit-hero {
+    background-image: url("../resources/images/local-shop.jpg");
+    height: 43.75rem;
     width: 100%;
-    overflow: hidden;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
-.visit-hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+
 
 .visit-section {
     padding: 60px 20px;
