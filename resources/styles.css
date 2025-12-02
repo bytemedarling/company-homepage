@@ -308,6 +308,14 @@ header h1 {
     text-align: center;
     font-family: "Boogaloo", Helvetica, sans-serif;
 }
+.story-text h2 {
+    font-family: "DM Serif Text";
+}
+.story-box {
+    text-align: center;
+    font-family: "Boogaloo", Helvetica, sans-serif;
+}
+
 /* ========== Visit SEction Styling ========== */
 .visit-hero {
     background-image: url("../resources/images/local-shop.jpg");
