@@ -252,7 +252,12 @@ header h1 {
     gap: 2.5rem;
     margin: 3rem auto 0;
 }
-
+.full-menu-container h2 {
+  text-align: center;
+  font-family: 'DM Serif Text';
+  margin-top: 0;
+  margin-bottom: 9.5rem;
+}
 .classic-menu, .others {
   background-color: #fff;
   border: 1px solid #d9d6d0;
