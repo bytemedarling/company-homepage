@@ -89,6 +89,7 @@ header h1 {
 }
 .navigation a:hover {
     Color:#7C4A33;
+    font-weight: bold;
 }
 /* -- Media Quary -- */
 @media (max-width: 37.5rem) {
