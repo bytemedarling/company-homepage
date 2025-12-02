@@ -114,12 +114,9 @@ header h1 {
 .breadcrumb {
   font-family: 'Outfit', sans-serif;
   font-size: 0.9rem;
-  margin: 20px 0;
   color: #7C4A33;
   align-items: start;
-  font-size: 0.9rem;
   margin: 20px 30px;
-  font-family: 'Outfit', sans-serif;
 }
 .breadcrumb a {
   text-decoration: none;
@@ -201,14 +198,12 @@ header h1 {
   margin-bottom: 12px;
   padding-top: 5rem;
 }
-
-
-/* Mobile */
+/* ========== Mobile ========== */
 @media (max-width: 600px) {
-  .hero {
+  .hero-section {
     padding: 40px 20px;
   }
-  .hero h1 {
+  .hero-section h1 {
     font-size: 2rem;
   }
 }
@@ -304,7 +299,7 @@ header h1 {
 
 /* ========== Visit SEction Styling ========== */
 .visit-hero {
-    background-image: url("../resources/images/local shop.jpg");
+    background-image: url("../resources/images/local-shop.jpg");
     background-size: auto;
     background-position: center;
     width: 100%;
@@ -339,7 +334,7 @@ header h1 {
 }
 
 .beans {
-    background-image: url("../resources/image/local shop.jpg");
+    background-image: url("../resources/image/local-shop.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
